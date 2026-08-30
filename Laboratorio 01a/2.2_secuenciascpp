@@ -393,7 +393,7 @@ void probarAlineamiento(const string& nombre1, vector<char>& cadena1,
     long long numCaminos = contarCaminos(matriz, cadena1.size(), cadena2.size(), memo);
     cout << endl;
     if (numCaminos == numeric_limits<long long>::max()) {
-        cout << "Numero de alineamientos optimos: desborda long long (es astronomicamente grande)" << endl;
+        cout << "Numero de alineamientos optimos: desborda long long" << endl;
     }
     else {
         cout << "Numero total de alineamientos optimos: " << numCaminos << endl;
